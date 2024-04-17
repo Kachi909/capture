@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Tables</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--We are learning HTML tables now-->
+    <h2>HTML Tables</h2>
+    <table width="100%">
+        <caption>HTML tables</caption>
+        <tr>
+            <th>Person 1</th>
+            <th>Person 2</th>
+            <th>Person 3</th>
+        </tr>
+        <tr>
+            <td>Sylvester</td>
+            <td>Tobe</td>
+            <td>Linus</td>
+        </tr>
+        <tr>
+            <td colspan="2">Grace</td>
+            <td>bayo</td>
+        </tr>
+        <tr>
+            <th colspan="2">Chikachi</th>
+            <td>Ande</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Emmy</th>
+            <td>amaka</td>
+            <td>chika</td>
+        </tr>
+        <tr>
+            <td>tobi</td>
+            <td>joe</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>14</td>
+            <td>10</td>
+        </tr> 
+    </table>
+    <!--We are learning HTML forms now-->
+    <h2>Html Forms</h2>
+    <form action="">
+        <div>
+            <label for="fname">Firstname:</label>
+            <input type="text" name="fname" id="fname">
+        </div>
+        <br>
+        <div>
+            <label for="lname">Lastname:</label>
+            <input type="text" name="lname" id="lname">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="pnumber">Phone Number:</label>
+            <input type="number" name="pnumber" id="pnumber">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="car">Choose your car:</label>
+            <select name="car" id="car">
+                <option value="select car type">Select car type</option>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="flat">Flat</option>
+            </select>
+        </div>
+        <h4>Check the box that resonates with you</h4>
+        <div>
+            <input type="checkbox" id="Vehicle1" name="Vehicle1" value="Bike">
+            <label for="Vehicle1">I have a bike</label>            
+        </div>
+        <div>
+            <input type="checkbox" id="Vehicle2" name="Vehicle2" value="Car">
+            <label for="Vehicle2">I have a car</label>            
+        </div>
+        <div>
+            <input type="checkbox" id="Vehicle3" name="Vehicle3" value="Boat">
+            <label for="Vehicle3">I have a boat</label>            
+        </div>
+        <div>
+            <input type="checkbox" id="Vehicle4" name="Vehicle4" value="Bus">
+            <label for="Vehicle4">I have a bus</label>            
+        </div>
+        <h4>Write a liitle something about yourself</h4>
+        <div>
+            <input type="text" placeholder="Write about yourself  ">       
+        </div>
+        <h4>Whats your favourite language</h4>
+        <div>
+            <input type="radio" id="language1" name="language1" value="HTML">
+            <label for="language1">HTML</label>
+        </div>
+        <div>
+            <input type="radio" id="language2" name="language2" value="CSS">
+            <label for="language2">CSS</label>
+        </div>
+        <div>
+            <input type="radio" id="language3" name="language3" value="JavaScript">
+            <label for="language3">JavaScript</label>
+        </div>
+        <br>
+        <div>
+            <label for="Upload">Upload a Document</label>
+            <input type="file">
+        </div>
+        <br>
+        <P>Will you like to tell us something else</P>
+        <div>
+            <textarea name="comment" id="comment" placeholder="Enter your text here"></textarea>
+        </div>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

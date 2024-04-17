@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+.card{
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card img{
+    width: 6%;
+    height: auto;
+}
+
+.card .profile-picture{
+    width: 30%;
+    height: auto;
+}
+
+.card-details{
+    padding: 10px;
+}
+
+.card-details h3{
+    margin: 0 0 5px;
+    color: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-details h5{
+    margin: 0 0 10px;
+    color: #333;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-details p{
+    margin: 0 0 10px;
+    color: #666;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+button{
+    font-size: 1.1em;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+    column-gap: 20px;
+}
+
+.button2{
+    border: 2px solid #333; 
+}
+
+.button1{
+    background-color: antiquewhite;
+}
+
+.skills-details{
+    padding: 20px;
+}
+
+.skills-details h5{
+    margin: 0 0 10px;
+    color: #333;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.skills-details ul{
+    float: right;
+    line-height: 12px;
+    gap: 50px;
+    color: #666;
+   }
+
+.skills-details ul li{
+    display: inline-block;
+    list-style: none;
+    gap: 50px;
+    border: 1px solid  #666;;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    vertical-align: 20px;
+}
+
+.smh{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+
+}
+    

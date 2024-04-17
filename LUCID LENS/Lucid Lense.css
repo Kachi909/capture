@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+section{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    }
+.container {
+    width: 85%;
+    margin: auto;
+}
+.nav{
+    height: 80px;
+}
+nav{
+    height: 80px;
+}
+nav svg{
+    line-height: 80px;
+    color: #fff;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+    gap: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 5px;
+    gap: 50px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 8px 16px;
+}
+nav ul li a:hover{
+    color: #0108F9;
+    padding: 10px 10px;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    padding: 8px 16px;
+    width: 109;
+    font-style: normal;
+    color: #07DF0D;
+    font-weight: 1000;
+    text-decoration: d;
+}
+nav ul li .active:hover{
+    color: #07DF0D;
+    padding: 10px 10px;
+    width: 109;
+    font-style: italic;
+    transition: 0.5s ease;
+    font-weight: 1000;
+}
+nav ul li .Buy{
+    background-color: #0108F9;
+    color: #fff;
+    padding: 8px 40px;
+    width: 109;
+    box-shadow: #2E32CC;
+    border-radius: 20px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+nav ul li .Buy:hover{
+    background-color: #fff;
+    color: #0108F9;
+    padding: 8px 40px;
+    width: 109;
+    border-radius: 20px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.article{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    transform: translateY(5vh);
+}
+.article h3{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article h4{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+}
+.article .title{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
+.article .website{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+}
+.card1{
+    display: flex;
+    width: 200px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #FFF;
+    background-image: url(depositphotos_362969356-stock-photo-portrait-of-beautiful-african-fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+}
+.card2{
+    position: relative;
+    top: -230px;
+    left: 232px;
+    display: flex;
+    width: 254px;
+    height: 200px;
+    transform: rotate(0deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #6A6A6A;
+    background: #FFF;
+    background-image: url(5_LindsayAdler.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px ;
+    background-size: cover;
+    }
+.card3{
+    position: relative;
+    top: -170px;
+    display: flex;
+    width: 254px;
+    height: 200px;
+    transform: rotate(0deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #6A6A6A;
+    background: #FFF;
+    background-image: url(Lindsay_Adler_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card4{
+    position: relative;
+    top: -400px;
+    left: 285px;
+    display: flex;
+    width: 200px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #FFF;
+    background-image: url(stock-photo-1042709323.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card5{
+    position: relative;
+    top: -390px;
+    display: flex;
+    width: 200px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #FFF;
+    background-image: url(VladaMUA23633-c-8bit.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card6{
+    position: relative;
+    top: -620px;
+    left: 232px;
+    display: flex;
+    width: 254px;
+    height: 200px;
+    transform: rotate(0deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #6A6A6A;
+    background: #FFF;
+    background-image: url(20170402_TEST-47a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card7{
+    position: relative;
+    top: -1519px;
+    left: 700px;
+    width: 215px;
+    height: 1107px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(7.5px);
+}
+.article h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140px;
+    text-align: center;
+}
+.article ul{
+    float: center;
+    line-height: 60px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: inline-flex;
+    float: center;
+    text-align: center;
+}
+.article ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: 5px 5px;
+    gap: 20px;
+    text-align: center;
+    float: center;
+    flex-direction: column;
+    position: center;
+   }
+.article ul li a{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.article ul li a:hover{
+    color: #2E32CC;
+    transition: 0.5s ease;
+}
+.article ul li .active2{
+    color: #07DF0D;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.article ul li .active2:hover{
+    color: #FFF;
+}
+.card8{
+    position: relative;
+    top: -2447px;
+    left: 1090px;
+    width: 254px;
+    height: 200px;
+    transform: rotate(0deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #FFF;
+    background-image: url(depositphotos_134562552-stock-photo-the-girl-in-the-neon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card9{
+    position: relative;
+    top: -2669px;
+    float: right;
+    display: flex;
+    width: 200px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #6A6A6A;
+    background: #242424;
+    background-image: url(creative-close-up-uv-portrait-with-hot-sun-stars-red-yellow-blue-orange-art_219401-316.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card10{
+    position: relative;
+    top: -2419px;
+    left: 1090px;
+    display: flex;
+    width: 200px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #6A6A6A;
+    background: #242424;
+    background-image: url(Lindsay_Adler_TCM_Day_5_2904-a.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card11{
+    position: relative;
+    top: -2640px;
+    float: right;
+    width: 254px;
+    height: 200px;
+    transform: rotate(0deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #FFF;
+    background-image: url(inline_image_preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card12{
+    position: relative;
+    top: -2392px;
+    left: 1090px;
+    display: flex;
+    width: 254px;
+    height: 200px;
+    transform: rotate(0deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #FFF;
+    background-image: url(istockphoto-491380080-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card13{
+    position: relative;
+    top: -2610px;
+    float: right;
+    display: flex;
+    width: 200px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #6A6A6A;
+    background: #242424;
+    background-image: url(portfolio-06-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

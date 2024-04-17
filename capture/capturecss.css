@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+section{
+    min-height: 100vh;
+    background-image: url("../capture/insight\ image.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 1400px 900px;
+    background-position: 350PX;
+    background-color: #0A0512;
+    image-orientation: horizontal;
+    }
+    
+.container {
+    width: 85%;
+    margin: auto;
+}
+.nav{
+    height: 80px;
+}
+nav{
+    height: 80px; 
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 32px;
+    font-size: inline;
+    color: #FF2E2E;
+    font-family: "Crimson Text";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    line-height: 80px; 
+    gap: 50px;   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 5px;
+    gap: 50px;
+
+    }
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    gap: 50px;
+    align-items: flex-start;
+    padding: 8px 16px;
+}
+nav ul li a:hover{
+    color: #FF2E2E;
+    transition: 0.5s ease;
+    padding: 10px 10px;
+
+}
+nav ul li .active:hover{
+    color: #fff;
+    padding: 8px 16px;
+    width: 109;
+    
+}
+nav ul li .active{
+    padding: 8px 16px;
+    width: 109;
+    font-style: normal;
+    color: #FF2E2E;
+    font-weight: 1000;
+}
+nav ul li .login{
+    background-color: #FF2E2E;
+    padding: 8px 20px;
+    width: 109;
+}
+nav ul li .login:hover{
+    background-color: #FFF;
+    color: #FF2E2E;
+    padding: 8px 20px;
+    width: 109;
+}
+nav ul li .signup{
+    color: #FF2E2E;
+    padding: 8px 20px;
+    width: 109;
+    border: 2px solid #FF2E2E;
+}
+nav ul li .signup:hover{
+    background-color: #FFF;
+    color: #FF2E2E;
+    padding: 8px 20px;
+    width: 109;
+    border: 2px solid #FFF;
+}
+.article{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    transform: translateY(15vh);
+}
+.article h1 {
+    color: #fff;
+    font-family: "Crimson Text";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 125% */
+    letter-spacing: 0.96px;
+}
+.article h2{
+    color: #FFF;
+    font-family: "Crimson Text";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.72px;
+}
+.article p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.5px;
+}
+.article h4{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 12.8px;
+    opacity: 75%;
+}
+.article .button1{
+    color: #FFF;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FF2E2E;
+    border-radius: 10px;
+}
+.article .button1:hover{
+    color: #FF2E2E;
+    background-color: #FFF;
+}
+.article h3{
+    color: #FFF;
+    font-family: "Crimson Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.72px;
+}
+.article .offshoot{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.3px;
+}
+.article h6{
+    color: #FF2E2E;
+    font-size: 14px;
+}
+.article .hey{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.3px;
+}
+.card2{
+    position: relative;
+    top: -120px;
+    left: -160px;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 25, 25, 0.65);
+    background: linear-gradient(108deg, rgba(255, 255, 255, 0.20) 4.44%, rgba(255, 255, 255, 0.05) 90.13%);
+    box-shadow: 4px 4px 30px -10px rgba(244, 25, 25, 0.98);
+    backdrop-filter: blur(7.5px);
+    width: 188px;
+    height: 246px;
+    flex-shrink: 0;
+    background: url(d74abb080686b08b2550928d84371049-removebg-preview.png), rgba(255, 255, 255, 0.144) -103.5px 0px / 200% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+    background-position: -120px 0px;
+    float: right;
+}
+.card2 .icon2{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    color: #FFF;
+}
+.card3{
+    position: relative;
+    top: 140px;
+    left: 26px;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 25, 25, 0.65);
+    background: linear-gradient(108deg, rgba(255, 255, 255, 0.20) 4.44%, rgba(255, 255, 255, 0.05) 90.13%);
+    box-shadow: 4px 4px 30px -10px rgba(244, 25, 25, 0.98);
+    backdrop-filter: blur(7.5px);
+    width: 188px;
+    height: 202px;
+    flex-shrink: 0;
+    background: url(front-view-modern-young-lady-colorful-coat-orange-t-shirt-playing-trying-vr-black-background-gaming-interactive-play-PhotoRoom.png-PhotoRoom.png), rgba(255, 255, 255, 0.144) -103.5px 0px / 200% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    background-position: -60px -1px;
+    float: right;
+}
+.card3 .icon3{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    color: #FFF;
+}
+.card4{
+    position: relative;
+    top: -20px;
+    left: 414px;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 25, 25, 0.65);
+    background: linear-gradient(108deg, rgba(255, 255, 255, 0.20) 4.44%, rgba(255, 255, 255, 0.05) 90.13%);
+    box-shadow: 4px 4px 30px -10px rgba(244, 25, 25, 0.98);
+    backdrop-filter: blur(7.5px);
+    width: 188px;
+    height: 246px;
+    flex-shrink: 0;
+    background: url(woman-using-virtual-reality-goggles-PhotoRoom.png-PhotoRoom.png), rgba(255, 255, 255, 0.144) -103.5px 0px / 200% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 240px 250px;
+    background-position: -20px 0px;
+    float: right;
+}
+.card4 .icon4{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    color: #FFF;
+}
+.card5{
+    position: relative;
+    top: -20px;
+    left: -552px;
+    border-radius: 10px;
+    border: 1px solid rgba(244, 25, 25, 0.65);
+    background: linear-gradient(108deg, rgba(255, 255, 255, 0.20) 4.44%, rgba(255, 255, 255, 0.05) 90.13%);
+    box-shadow: 4px 4px 30px -10px rgba(244, 25, 25, 0.98);
+    backdrop-filter: blur(7.5px);
+    width: 188px;
+    height: 246px;
+    flex-shrink: 0;
+    background: url(young-female-wearing-virtual-reality-headset-dark-desk-gaming-visual-vision-tech-PhotoRoom.png-PhotoRoom.png), rgba(255, 255, 255, 0.144) -103.5px 0px / 200% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 350px 250px;
+    background-position: -80px -6px;
+    float: right;
+}
+.card5 .icon1{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    color: #FFF;
+}
