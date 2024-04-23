@@ -32,6 +32,12 @@ nav{
     width: 10%;
     justify-content: space-between;
     align-items: center;
+    color: rgb(38, 38, 38);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2%;
+    text-align: left;  
 }
 
 
@@ -54,7 +60,7 @@ nav{
     border: 1px  solid lightgrey;
     border-radius: 16px;
     padding: 10px;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
 }
 
